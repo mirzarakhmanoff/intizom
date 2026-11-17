@@ -279,6 +279,8 @@ details p{padding:0 22px 22px;color:var(--mute);max-width:620px}
 .plan.best{border:2px solid var(--acc)}
 .plan b{font-family:var(--h);font-size:20px}
 .plan small{display:block;color:var(--mute);font-size:14px}
+.plan .amt{text-align:right;white-space:nowrap}
+.plan .amt small{font-family:var(--b);font-weight:500;margin-top:2px}
 
 /* cta */
 .cta{position:relative;padding:160px 0 150px;text-align:center;overflow:hidden}
@@ -399,6 +401,7 @@ footer a{padding:12px 0}footer a:hover{color:var(--text)}
   .stage{height:500px}
   .num b{font-size:40px}
   .plan{flex-wrap:wrap;gap:6px 12px}
+  .plan .amt{text-align:left}
 }
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation:none!important;transition:none!important}
@@ -655,8 +658,8 @@ footer a{padding:12px 0}footer a:hover{color:var(--text)}
         <p style="color:#C9CED8;font-size:18px">Karta so'ralmaydi va pul o'z-o'zidan yechilmaydi. Sinov tugasa ham ma'lumotlaringiz saqlanib qoladi.</p>
       </div>
       <div class="plans">
-        <div class="plan best"><span><b>Yillik</b><small>Oyiga hisoblaganda arzonroq</small></span><b>[NARX] / yil</b></div>
-        <div class="plan"><span><b>Oylik</b><small>Istalgan payt bekor qilinadi</small></span><b>[NARX] / oy</b></div>
+        <div class="plan best"><span><b>Yillik</b><small>Oyiga hisoblaganda arzonroq</small></span><b class="amt">300 000 so&#39;m / yil<small>$24.99</small></b></div>
+        <div class="plan"><span><b>Oylik</b><small>Istalgan payt bekor qilinadi</small></span><b class="amt">36 000 so&#39;m / oy<small>$2.99</small></b></div>
       </div>
     </div>
   </div>
@@ -867,10 +870,10 @@ footer a{padding:12px 0}footer a:hover{color:var(--text)}
     "Karta so'ralmaydi va pul o'z-o'zidan yechilmaydi. Sinov tugasa ham ma'lumotlaringiz saqlanib qoladi.": ["Карта не нужна, и деньги не спишутся сами. Данные сохранятся и после пробного периода.", "No card needed and nothing is charged automatically. Your data stays even after the trial ends."],
     "Yillik": ["Годовой", "Yearly"],
     "Oyiga hisoblaganda arzonroq": ["Выгоднее в пересчёте на месяц", "Cheaper per month"],
-    "[NARX] / yil": ["[ЦЕНА] / год", "[PRICE] / year"],
+    "300 000 so'm / yil": ["300 000 сум / год", "300,000 UZS / year"],
     "Oylik": ["Месячный", "Monthly"],
     "Istalgan payt bekor qilinadi": ["Можно отменить в любой момент", "Cancel any time"],
-    "[NARX] / oy": ["[ЦЕНА] / мес", "[PRICE] / month"],
+    "36 000 so'm / oy": ["36 000 сум / мес", "36,000 UZS / month"],
     "SAVOLLAR": ["ВОПРОСЫ", "FAQ"],
     "Ko'p so'raladi.": ["Частые вопросы.", "Common questions."],
     "Hech qachon zalga bormaganman. To'g'ri keladimi?": ["Я никогда не был в зале. Мне подойдёт?", "I've never been to a gym. Is this for me?"],

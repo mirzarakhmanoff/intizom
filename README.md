@@ -49,7 +49,6 @@ Sayt domenning ildizida turishi kerak (`https://DOMEN/`), ichki papkada emas.
 ## Chiqarishdan oldin
 
 - [ ] Hujjatlardagi qavslarni to'ldiring: `[KOMPANIYA NOMI]`, `[MANZIL]`, `[SANA]`, `[HOSTING]`, `[SERVER MAMLAKATI]`, `[N]`, qonun va sud. `index.html` da `[` deb qidiring (uch tilda).
-- [ ] `[NARX]` o'rniga narxlar (uch tilda: `[NARX]`, `[ЦЕНА]`, `[PRICE]`).
 - [ ] Do'kon havolalari: `href="#yuklab"` turgan to'rtta `sbadge` havolasiga App Store va Google Play manzillarini qo'ying.
 - [ ] Nishonlar: `assets/badge-*.svg` ni Apple va Google saytidan olingan rasmiy fayllar bilan almashtiring.
 - [ ] `<head>` dagi TODO: `canonical` va `og:image`.
